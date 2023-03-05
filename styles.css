@@ -1,0 +1,36 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #0c0c0c;
+    background-color: #ffffff;
+}
+
+/*Linkek*/
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+link:visited{
+    color: #0c0c0c;
+    text-decoration: none;
+}
+
+/*Header formazasok*/
+header {
+    display: flex;
+    line-height: 120px;
+    background-image: url("kepek/headerbg.svg");
+    background-repeat: no-repeat;
+}
+
+#logo{
+    padding-left: 30px;
+}
+
+#linklista h2{
+    list-style: none;
+    padding-top: 50px;
+    display: inline-block;
+    padding-left: 20px;
+}
