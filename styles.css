@@ -21,7 +21,6 @@ header {
     display: flex;
     line-height: 120px;
     background-image: url("kepek/headerbg.svg");
-    background-repeat: no-repeat;
 }
 
 #logo{
