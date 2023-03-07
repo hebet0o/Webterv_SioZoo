@@ -1,0 +1,43 @@
+Menü:
+
+Mindegyik jol lathato
+Navigacio megfelelo kozottuk
+Felhasználo mindig tudja hogy hol van ///Más designal legyen megjelentetve (onclick)
+Menu position fixed
+
+Tartalom:
+Animálva jelenik meg
+Igényes animációk
+Kurzor interakciók (hover, onclick)
+
+Reszponziv design bootstrap nelkul!!
+
+Kapcsolat oldal űrlap, írjon nekünk üzenetet 
+Vezetéknév,Keresztnév, Telszám, Email, Születési dátum, Üzenet
+Elküldés gomb, Reset gomb, Fieldsettel (okt.sed mezőcsoportosítás)
+
+Áraink táblázat
+Fejléc ami másképp jelenik meg
+Headers attribútum
+
+CSS:
+
+id, class, elem szelektor használata
+kapcsolat, attributum alapu szelektor használata
+
+Float, clear használata
+
+!!!!!! https://www.inf.u-szeged.hu/~vancsics/webterv/Fejezet_05/ !!!!!!!
+
+Flexbox, grid használata 
+
+lekerekitett sarkok
+letter spacing, text-align, text-decoration
+pozicionalas
+
+arnyekok hasznalata 
+
+transzformalas
+
+
+
