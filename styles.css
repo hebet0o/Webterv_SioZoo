@@ -30,6 +30,9 @@ header {
 header h2:hover{
     color: #40CF43;
 }
+header h2 a:active{
+    border: 3px #40CF43;
+}
 
 #logo{
     padding-left: 30px;
