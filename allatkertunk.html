@@ -7,7 +7,16 @@
   </head>
   <body>
     <header>
-      <img src="kepek/logo.svg" alt="SioZoo" id="logo" width="200" height="200">
+      <a href="index.html" style="line-height: normal;">
+      <img src="kepek/logo.svg" alt="SioZoo" id="logo" width="200" height="200"> </a>
+      <style>
+        #logo:hover {
+          opacity: 0.8;
+          transform: scale(1.1);
+          transition: all 0.3s ease;  
+        }
+      </style>
+      
       <nav id="linklista">
         <h2><a href="index.html">Kezdőlap</a></h2>
         <h2><a href="allatkertunk.html">Állatkertünk</a></h2>
@@ -17,17 +26,39 @@
       </nav>
     </header>
     <main>
-         <h2>Üdvözöljük az Állatkertünk oldalán!</h2>
-        <section>
+          <div class="fade-in">
+            <h2 class="allatkertunkcim">Üdvözöljük az Állatkertünk oldalán!</h2>
+          </div>
+        <section  id="allatkertunktext">
             <p>
                 A SioZoo büszkén mutatja be több mint 100 állatfajt és számos érdekes programot, hogy élményekkel teli napot tölthessenek nálunk. Az állatkertünk területe több mint 40 hektár, melynek számos része különleges élményeket kínál a látogatóknak.
             Az Állatkertünk oldalon megismerhetik a SioZoo bemutatott állatfajainak részletes leírásait, fotóit, videóit és további érdekességeket. Kérjük, vegyenek részt a virtuális séta programunkban, amely segítségével körbejárhatják az állatkertet az otthonuk kényelméből.
             Az állatkertünkben élménydús, interaktív programokat és eseményeket szervezünk minden korosztály számára. Várjuk önöket kisgyermekes családokkal, baráti társaságokkal és iskolai csoportokkal egyaránt.
             Kérdéseikkel és visszajelzéseikkel forduljanak hozzánk bizalommal az Állatkertünk oldalon található elérhetőségeinken keresztül.
 
-            Köszönjük, hogy velünk tartanak!
+            <strong>Köszönjük, hogy velünk tartanak!</strong>
             </p>
         </section>
+        <h2 class="allatkertunkcim">
+          Legnépszerűbb állatfajok
+        </h2>
+        <h2 style="text-align: center;">
+          Orángután
+        </h2>
+        <div class="allatokrolkep">
+          <div class="item">
+            <img src="kepek/szumatraiorangutan.jpg" alt="Szumátrai orangután">
+            <div class="caption">Text for Picture 1</div>
+          </div>
+          <div class="item">
+            <img src="kepek/borneoiorangutan.jpg" alt="Borneói orangután">
+            <div class="caption">Text for Picture 2</div>
+          </div>
+          <div class="item">
+            <img src="kepek/tapanuliorangutan.jpg" alt="Tapanuli orangután">
+            <div class="caption">Text for Picture 3</div>
+          </div>
+        </div>
     </main>
   </body>
   <footer>
