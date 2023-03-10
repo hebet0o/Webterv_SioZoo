@@ -1,6 +1,5 @@
 body{
-    font-family: 'Raleway', sans-serif;
-    color: #0c0c0c;
+    font-family: neusa-next-std,sans-serif;
     background-color: #ffffff;
 }
 
@@ -12,7 +11,7 @@ a{
 }
 
 link:visited{
-    color: #0c0c0c;
+    color: green;
     text-decoration: none;
 }
 
@@ -32,4 +31,28 @@ header {
     padding-top: 50px;
     display: inline-block;
     padding-left: 20px;
+}
+
+/* index/main */
+
+main li{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+}
+#gekko{
+    float: left;
+}
+main{
+    color: #047207;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+}
+
+.caption .content{
+    text-align: center;
 }
