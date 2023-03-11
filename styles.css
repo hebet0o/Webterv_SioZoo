@@ -22,6 +22,18 @@ header {
     display: flex;
     line-height: 120px;
     background-image: url("kepek/headerbg.svg");
+
+    /*Header FIXED ON TOP*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+}
+main{
+  position: relative;
+  margin-top: 225px;
 }
 
 #logo{
