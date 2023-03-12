@@ -7,7 +7,15 @@
   </head>
   <body>
     <header>
-      <img src="kepek/logo.svg" alt="SioZoo" id="logo" width="200" height="200">
+      <a href="index.html" style="line-height: normal;">
+        <img src="kepek/logo.svg" alt="SioZoo" id="logo" width="200" height="200"> </a>
+        <style>
+          #logo:hover {
+            opacity: 0.8;
+            transform: scale(1.1);
+            transition: all 0.3s ease;  
+          }
+        </style>
       <nav id="linklista">
         <h2><a href="index.html">Kezdőlap</a></h2>
         <h2><a href="allatkertunk.html">Állatkertünk</a></h2>
@@ -17,16 +25,10 @@
       </nav>
     </header>
     <main>
-         <h2>Üdvözöljük az Állatkertünk oldalán!</h2>
-        <section>
-          <!-- Állatbemutatók: Gyere el az állatkertbe, és nézd meg az állatokat az élő bemutatók során! Hallgasd meg az állatkerti dolgozók izgalmas történeteit az állatokról, és ismerd meg őket közelebbről!
+         <h2 class="programokcim">Üdvözöljük a Programok oldalon!</h2>
+        <section class="maintext">
 
-Állatsimogató: Szeretnéd megsimogatni az állatokat? Látogass el az állatsimogatóhoz, ahol közvetlen kapcsolatba kerülhetsz a kedvesebb állatokkal, mint például a nyuszik, a bárányok és a kecskék.
-
-Táplálkozási bemutató: Szeretnél többet megtudni arról, hogy mit esznek az állatok? Ne hagyj ki a táplálkozási bemutatót, amelynek során láthatod, hogyan táplálkoznak az állatok, és hallhatsz érdekességeket az étkezési szokásaikról.
-
-Kalandpálya: Ha szereted a kalandot és a kihívásokat, látogass el a kalandpályára! Ez egy szórakoztató és izgalmas tevékenység az egész család számára, amely során érdekes dolgokat fedezhetsz fel az állatokkal kapcsolatban.-->
-              <p>
+       <p>
                 Az állatkertünkben évente számos program és esemény várja a látogatókat. Célunk, hogy az állatokat még közelebb hozzuk az emberekhez, és élményekkel teli időtöltést biztosítsunk a családoknak, baráti társaságoknak és minden állatszeretőnek.
 
                 Az Állatkertünk oldalon található információkat ajánljuk figyelmükbe, ha szeretnének részt venni valamelyik programunkon vagy eseményünkön. Itt megtalálják a közelgő programok és események időpontjait, leírását és a részvétel feltételeit.
@@ -35,8 +37,77 @@ Kalandpálya: Ha szereted a kalandot és a kihívásokat, látogass el a kalandp
                 
                 Az állatkerti programok mellett érdemes ellátogatni az állatetetésre, ahol az érdeklődők a gondozók segítségével etethetik meg az állatokat, vagy éppen részt vehetnek az állatok napi rutinjában. Az állatkerti séta mellett érdemes felfedezni a SioZoo környezetében található parkokat, játszótereket és pihenőhelyeket is.
             
-                Reméljük, hogy megtalálják a számukra legmegfelelőbb programot, és kellemes időtöltést töltenek az állatkertünkben. Várjuk Önöket szeretettel!
+                Reméljük, hogy megtalálják a számukra legmegfelelőbb programot, és kellemes időtöltést töltenek az állatkertünkben. <strong>Várjuk Önöket szeretettel!</strong>
             </p>
+            <div>
+                <table class="programoktable">
+                  <tr>
+                    <td class="programoktd">
+                      <h2 class="programoksidecimek">Állatbemutatók</h2> 
+                      <p>
+                        <br>Gyere el az állatkertbe, és nézd meg az állatokat az élő bemutatók során!
+                        Hallgasd meg az állatkerti dolgozók izgalmas történeteit az állatokról, és ismerd meg őket közelebbről!
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              <div class="image-container">
+                <img src="kepek/allatbemutato1.jpg" alt="allatbemutato1">
+                <img src="kepek/allatbemutato2.jpg" alt="allatbemutato2">
+              </div>
+
+              <div>
+                <table class="programoktable">
+                  <tr>
+                    <td class="programoktd">
+                      <h2 class="programoksidecimek">Állatsimogató</h2> 
+                      <p>
+                        <br>Szeretnéd megsimogatni az állatokat?  Látogass el az állatsimogatóhoz, 
+                        ahol közvetlen kapcsolatba kerülhetsz a kedvesebb állatokkal, mint például a nyuszik, a bárányok és a kecskék.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              <div class="image-container">
+                <img src="kepek/allatsimogatas1.jpg" alt="allatsimogatas1" style="height: 381px;">
+                <img src="kepek/allatsimogatas2.jpg" alt="allatsimogatas2" style="height: 381px;">
+              </div>
+            </div>
+            
+            <div>
+              <table class="programoktable">
+                <tr>
+                  <td class="programoktd">
+                    <h2 class="programoksidecimek">Táplálkozási bemutató</h2> 
+                    <p>
+                      <br>Szeretnél többet megtudni arról, hogy mit esznek az állatok? Ne hagyj ki a 
+                      táplálkozási bemutatót, amelynek során láthatod, hogyan táplálkoznak az állatok, és hallhatsz érdekességeket az étkezési szokásaikról.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            <div class="image-container">
+              <img src="kepek/taplalkozasibemutato1.jpg" alt="taplalkozasibemutato1" style="height: 355px;">
+              <img src="kepek/taplalkozasibemutato2.jpg" alt="taplalkozasibemutato2" style="height: 355px;">
+            </div>
+
+            <div>
+              <table class="programoktable">
+                <tr>
+                  <td class="programoktd">
+                    <h2 class="programoksidecimek">Kalandpálya</h2> 
+                    <p>
+                      <br>Ha szereted a kalandot és a kihívásokat, látogass el a kalandpályára! 
+                      Ez egy szórakoztató és izgalmas tevékenység az egész család számára, amely során érdekes dolgokat fedezhetsz fel az állatokkal kapcsolatban.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            <div class="image-container">
+              <img src="kepek/kalandpalya1.jpg" alt="kalandpalya1" style="height: 360px;">
+              <img src="kepek/kalandpalya2.jpg" alt="kalandpalya2" style="height: 360px;">
+            </div>
+
         </section>
     </main>
   </body>
