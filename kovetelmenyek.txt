@@ -8,7 +8,7 @@ Menu position fixed --> kesz
 Tartalom:
 Animálva jelenik meg --> kesz
 Igényes animációk --> sztem kesz XDDDDDD (remelem)
-Kurzor interakciók (hover, onclick)
+Kurzor interakciók (hover, onclick) --> kesz
 
 Reszponziv design bootstrap nelkul!! --> igazabol vmit csinaltam de hogy az egesz weboldalt hogy kene az jo kerdes XDXXDXD
 
@@ -22,14 +22,14 @@ Headers attribútum
 
 CSS:
 
-id, class, elem szelektor használata
+id, class, elem szelektor használata --> kesz
 kapcsolat, attributum alapu szelektor használata
 
 Float, clear használata
 
 !!!!!! https://www.inf.u-szeged.hu/~vancsics/webterv/Fejezet_05/ !!!!!!!
 
-Flexbox, grid használata 
+Flexbox, grid használata --> kesz
 
 lekerekitett sarkok
 letter spacing, text-align, text-decoration --> kesz, kesz
