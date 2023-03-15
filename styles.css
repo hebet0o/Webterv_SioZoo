@@ -1,9 +1,20 @@
 body{
-    font-family: 'Raleway', sans-serif;
-    color: #0c0c0c;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: black;
     background-color: #ffffff;
+   margin: 0;
 }
 
+
+
+@font-face {
+  font-family: 'gentona';
+  src: url('font/gentona_bold-webfont.woff2') format('woff2'),
+       url('font/gentona_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 /*Linkek*/
 
 a{
@@ -20,9 +31,8 @@ link:visited{
 /*Header formazasok*/
 header {
     display: flex;
-    line-height: 120px;
+    line-height: 50px;
     background-image: url("kepek/headerbg.svg");
-
     /*Header FIXED ON TOP*/
     position: fixed;
     top: 0;
@@ -33,14 +43,23 @@ header {
 }
 main{
   position: relative;
-  margin-top: 225px;
+  font-family: 'gentona';
+  margin-top: 220px;
 }
-header h2 a:active{
-    border: 3px #40CF43;
+
+nav a:active{
+    border: 3px #84d185;
+    transition: ease 0.4s;
 }
 
 #logo{
     padding-left: 30px;
+}
+
+#logo:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: all 0.3s ease;  
 }
 
 #linklista h2{
@@ -48,7 +67,106 @@ header h2 a:active{
     padding-top: 50px;
     display: inline-block;
     padding-left: 20px;
+    font-size: 30px;
 }
+
+#linklista h2:hover{
+  color: #84d185;
+  transition: ease 0.6s;
+}
+/*index div formazasok*/
+
+.mainindex{
+  color:  white;
+  text-align: center;
+  line-height: 400%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("kepek/pexels.jpg");
+  background-size: 100%;
+  height: 800px;
+  margin: 0;
+  margin-top: 0px;
+}
+.maincaption{
+  padding-top: 15px;
+  transform: rotate(4deg);
+  font-size: 60px;
+  z-index: 300;
+  background-color: #E0DC3D;
+}
+
+#content_1{
+  background-color: #bbec7a;
+  transform: rotate(-2deg);
+  width: 1000px;
+  z-index: 1;
+}
+
+#content_1, #content_2, #content_3{
+  font-size: 30px;
+}
+
+
+/*Kártyák kedvenc állatfajaitoknál*/
+
+#card_1:hover, #card_2:hover, #card_3:hover{
+  box-shadow: 15px 15px 30px white,
+              -15px -15px 30px white;
+  transition: ease 0.8s;
+
+}
+
+#card_1, #card_2, #card_3{
+  font-size: 30px;
+  color: black;
+  margin: 30px;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  width: 190px;
+  height: 300px;
+  border-radius: 30px;
+  background:white;
+  box-shadow: 15px 15px 30px #07592f,
+             -15px -15px 30px #07592f;
+}
+
+.list{
+  background-color: #0FBE64;
+  margin-top: 0;
+  padding: 0;
+  height: 600px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.captionindex{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+/*bemutatkozas formazas*/
+.bemutatkozas{
+  height: 300px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.captionbemut{
+  background-color: #bbec7a;
+}
+
 
 /*allatkertunk cime es fade-in-je*/
 .fade-in {
@@ -186,7 +304,13 @@ header h2 a:active{
       border: 1px solid #ccc;
     }
     
-
+  /*Footer*/
+  footer{
+    text-align: center;
+    background-color: #bbec7a;
+    color: black;
+    height: 30px;
+  }
     
     
 
