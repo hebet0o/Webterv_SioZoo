@@ -2,7 +2,7 @@ body{
     font-family: 'Helvetica Neue', sans-serif;
     color: black;
     background-color: #ffffff;
-    margin: 0;
+    margin: 0px;
 }
 
 
@@ -24,8 +24,7 @@ a{
 
 
 link:visited{
-    color: #0c0c0c;
-    text-decoration: none;
+      text-decoration: none;
 }
 
 /*Header formazasok*/
@@ -44,12 +43,9 @@ main{
   position: relative;
   font-family: 'gentona';
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-nav a:active{
-    border: 3px #84d185;
-    transition: ease 0.4s;
-}
 
 #logo{
     padding-left: 30px;
@@ -249,7 +245,8 @@ nav a:active{
     background: url("kepek/latbg.svg");
     background-size: 60%;
     height: 500px;
-    margin: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
 
   .maincaptionlat{
@@ -454,6 +451,7 @@ nav a:active{
     background-color: #bbec7a;
     color: black;
     height: 30px;
+    font-weight: bold;
   }
     
     
