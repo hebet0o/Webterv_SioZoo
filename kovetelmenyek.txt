@@ -16,9 +16,9 @@ Kapcsolat oldal űrlap, írjon nekünk üzenetet
 Vezetéknév,Keresztnév, Telszám, Email, Születési dátum, Üzenet
 Elküldés gomb, Reset gomb, Fieldsettel (okt.sed mezőcsoportosítás)
 
-Áraink táblázat
+Áraink táblázat --> kesz
 Fejléc ami másképp jelenik meg
-Headers attribútum
+Headers attribútum --> kesz
 
 CSS:
 
@@ -31,9 +31,9 @@ Float, clear használata
 
 Flexbox, grid használata --> kesz
 
-lekerekitett sarkok
+lekerekitett sarkok --> kesz
 letter spacing, text-align, text-decoration --> kesz, kesz
-pozicionalas
+pozicionalas --> kesz
 
 arnyekok hasznalata --> kesz
 
