@@ -9,37 +9,57 @@
     <header>
       <a href="index.html" style="line-height: normal;">
         <img src="kepek/logo.svg" alt="SioZoo" id="logo" width="200" height="200"> </a>
-        <style>
-          #logo:hover {
-            opacity: 0.8;
-            transform: scale(1.1);
-            transition: all 0.3s ease;  
-          }
-        </style>
       <nav id="linklista">
-        <h2><a href="index.html">Kezdőlap</a></h2>
-        <h2><a href="allatkertunk.html">Állatkertünk</a></h2>
-        <h2><a href="latogatas.html">Látogatás</a></h2>
-        <h2><a href="programok.html">Programok</a></h2>
-        <h2><a href="kapcsolat.html">Kapcsolat</a></h2>
+        <h2><a href="index.html">KEZDŐLAP</a></h2>
+        <h2><a href="allatkertunk.html">ÁLLATKERTÜNK</a></h2>
+        <h2><a href="latogatas.html">LÁTOGATÁS</a></h2>
+        <h2><a href="programok.html">PROGRAMOK</a></h2>
+        <h2><a href="kapcsolat.html">KAPCSOLAT</a></h2>
       </nav>
     </header>
-    <main>
-         <h2>Üdvözöljük a Kapcsolat oldalon!</h2>
-        <section>
-            <p>
-                Ha kérdése vagy észrevétele van az állatkerttel vagy az oldalunkkal kapcsolatban, kérjük, forduljon hozzánk bizalommal. Az állatkert munkatársai minden kérdést és észrevételt nagy figyelemmel kezelnek, és igyekeznek minél hamarabb válaszolni rájuk.
-                Amennyiben szeretné felvenni velünk a kapcsolatot, kérjük, használja az Állatkertünk oldalon található elérhetőségeinket. Az alábbiakban megadunk néhány lehetőséget, hogy el tudjon érni minket:
-                <ul>
-                    <li>Telefon: +36 1 123 4567</li>
-                    <li>E-mail: info@siozoo.hu</li>
-                    <li>Postacím: 1234 Budapest, Állatkert út 1.</li>
-                </ul>    
-                Ha szeretne segítséget kapni a látogatás tervezésében vagy jegyeket szeretne vásárolni, akkor az Online Jegyvásárlás oldalon található információkat ajánljuk figyelmébe.
-                Köszönjük, hogy kapcsolatba lépett velünk! Az állatkert munkatársai minden esetben igyekeznek segíteni Önnek, hogy élménydús és kellemes időt tölthessen a SioZoo-ban.
-            </p>
-        </section>
-    </main>
+    <div class="kapcsolatmaindiv">
+      <span id="card_8">
+      <main>
+          <h2 class="kapcsolatcaption">Üdvözöljük a Kapcsolat oldalon!</h2>
+              <p>
+                  Ha kérdése vagy észrevétele van az állatkerttel vagy az oldalunkkal kapcsolatban, kérjük, forduljon hozzánk bizalommal. Az állatkert munkatársai minden kérdést és észrevételt nagy figyelemmel kezelnek, és igyekeznek minél hamarabb válaszolni rájuk.
+                  Amennyiben szeretné felvenni velünk a kapcsolatot, kérjük, használja az itt található információkat.
+              </p>    
+               <ul>
+                  <li>Telefon: +36 1 123 4567</li>
+                  <li>E-mail: info@siozoo.hu</li>
+                  <li>Postacím: 1234 Budapest, Állatkert út 1.</li>
+              </ul>    
+              <p>
+                Ha szeretne segítséget kapni a látogatás tervezésében, akkor a Látogatás oldalon található információkat ajánljuk figyelmébe.
+                Minden fajta visszajelzést köszönünk, és bátran keressenek minket akár az alábbi formon, akár telefonon, akár személyesen!
+              </p>
+        </main>  
+      </span>
+    </div>
+    <div class="form">
+      <div id="card_9">
+        <form>
+          <fieldset>
+            <legend>Írjon nekünk üzenetet!</legend>
+              <label for="vnev">Vezetéknév:</label>
+              <input type="text" id="vnev" name="vnev" placeholder="pl. Kovács"><br><br>
+              <label for="knev">Keresztnév</label>
+              <input type="text" id="knev" name="knev" placeholder="pl. István"><br><br>
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" placeholder="pl. kovistvan@gmail.com"><br><br>
+              <label for="szuldatum">Születési dátum:</label>
+              <input type="date" id="szuldatum" name="szuldatum"><br><br>
+              <div class="uzenetfield">
+                <label for="uzenet">Üzenet:</label>
+                <textarea placeholder="Üzenetét írja ide!"></textarea><br><br>  
+              </div>
+              <input type="submit" value="Küldés">
+              <input type="button" value="Törlés">
+          </fieldset>
+        </form>
+      </div>
+  </div>
   </body>
   <footer>
     <p>&copy; 2023 SioZoo</p>

@@ -8,32 +8,32 @@ Menu position fixed --> kesz
 Tartalom:
 Animálva jelenik meg --> kesz
 Igényes animációk --> sztem kesz XDDDDDD (remelem)
-Kurzor interakciók (hover, onclick)
+Kurzor interakciók (hover, onclick) --> kesz
 
 Reszponziv design bootstrap nelkul!! --> igazabol vmit csinaltam de hogy az egesz weboldalt hogy kene az jo kerdes XDXXDXD
 
-Kapcsolat oldal űrlap, írjon nekünk üzenetet 
-Vezetéknév,Keresztnév, Telszám, Email, Születési dátum, Üzenet
-Elküldés gomb, Reset gomb, Fieldsettel (okt.sed mezőcsoportosítás)
+Kapcsolat oldal űrlap, írjon nekünk üzenetet   --> kesz
+Vezetéknév,Keresztnév, Telszám, Email, Születési dátum, Üzenet --> kesz
+Elküldés gomb, Reset gomb, Fieldsettel (okt.sed mezőcsoportosítás) --> kesz
 
-Áraink táblázat
+Áraink táblázat --> kesz
 Fejléc ami másképp jelenik meg
-Headers attribútum
+Headers attribútum --> kesz
 
 CSS:
 
-id, class, elem szelektor használata
-kapcsolat, attributum alapu szelektor használata
+id, class, elem szelektor használata --> kesz
+kapcsolat, attributum alapu szelektor használata --> kesz
 
-Float, clear használata
+Float, clear használata --> kesz? i guess
 
 !!!!!! https://www.inf.u-szeged.hu/~vancsics/webterv/Fejezet_05/ !!!!!!!
 
-Flexbox, grid használata 
+Flexbox, grid használata --> kesz
 
 lekerekitett sarkok --> kesz
 letter spacing, text-align, text-decoration --> kesz, kesz
-pozicionalas
+pozicionalas --> kesz
 
 arnyekok hasznalata --> kesz
 
