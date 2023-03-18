@@ -31,7 +31,7 @@ Float, clear használata
 
 Flexbox, grid használata 
 
-lekerekitett sarkok
+lekerekitett sarkok --> kesz
 letter spacing, text-align, text-decoration --> kesz, kesz
 pozicionalas
 
