@@ -12,9 +12,9 @@ Kurzor interakciók (hover, onclick) --> kesz
 
 Reszponziv design bootstrap nelkul!! --> igazabol vmit csinaltam de hogy az egesz weboldalt hogy kene az jo kerdes XDXXDXD
 
-Kapcsolat oldal űrlap, írjon nekünk üzenetet 
-Vezetéknév,Keresztnév, Telszám, Email, Születési dátum, Üzenet
-Elküldés gomb, Reset gomb, Fieldsettel (okt.sed mezőcsoportosítás)
+Kapcsolat oldal űrlap, írjon nekünk üzenetet   --> kesz
+Vezetéknév,Keresztnév, Telszám, Email, Születési dátum, Üzenet --> kesz
+Elküldés gomb, Reset gomb, Fieldsettel (okt.sed mezőcsoportosítás) --> kesz
 
 Áraink táblázat --> kesz
 Fejléc ami másképp jelenik meg
@@ -23,9 +23,9 @@ Headers attribútum --> kesz
 CSS:
 
 id, class, elem szelektor használata --> kesz
-kapcsolat, attributum alapu szelektor használata
+kapcsolat, attributum alapu szelektor használata --> kesz
 
-Float, clear használata
+Float, clear használata --> kesz? i guess
 
 !!!!!! https://www.inf.u-szeged.hu/~vancsics/webterv/Fejezet_05/ !!!!!!!
 
