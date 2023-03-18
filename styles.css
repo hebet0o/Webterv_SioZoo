@@ -40,6 +40,40 @@ header {
     width: 100%;
     z-index: 999;
 }
+
+/*BELEPES ÉS REGISZTRÁCIÓ */
+
+#belepesregisztracionav{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#belepesregisztracionavul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.loginandregistration{
+  display: inline-block;
+
+}
+.belepesregisztracionaa{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: font-size 0.2s, color 0.2s;
+}
+
+.belepesregisztracionaa:hover {
+  font-size: 18px;
+  color: #888;
+}
+
+
 main{
   position: relative;
   font-family: 'gentona';
@@ -191,6 +225,18 @@ main{
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
     padding: 10px;
     margin-bottom: 10px;
+    background-color: #bbec7a;
+    transform: rotate(1deg);
+
+}
+
+.allatkertunkcim2{
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #bbec7a;
+    transform: rotate(-0.2deg);
 }
 
 
@@ -233,6 +279,10 @@ main{
   .caption {
     margin-top: 10px;
     font-weight: bold;
+  }
+  .allatokcim{
+   text-align: center;
+    
   }
 
   /*Latogatas oldal formazasok*/
