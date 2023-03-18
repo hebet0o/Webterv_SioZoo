@@ -317,7 +317,7 @@ main{
   }
 
   #card_7{
-    font-size: 10px;
+    font-size: 30px;
     color: black;
     margin: 30px;
     justify-content: center;
@@ -325,11 +325,13 @@ main{
     align-items: center;
     width: 600px;
     height: 700px;
-    background:white;
+    background-color:white;
     box-shadow: 5px 5px 5px #08321c,
                -5px -5px 5px #08321c;
     transition: ease-in-out 0.8s;
   }
+
+
 
   .latogatascontent{
     color:  white;
@@ -338,7 +340,7 @@ main{
     align-items: center;
     background: url("kepek/latogatasbg.jpg");
     background-size: 100%;
-    height: 800px;
+    height: 900px;
     margin: 0px;
     text-align: center;
   }
@@ -420,6 +422,50 @@ main{
       }
     }
 
+    /*Kapcsolat oldal formazasok*/
+    .kapcsolatmaindiv{
+      color:  black;
+      text-align: left;
+      line-height: 30px;
+      justify-content: center;
+      align-items: center;
+      display:flex;
+      background-image: url("kepek/kapcsolatbg.jpg");
+      background-size: 100%;
+      height: 750px;
+      margin-bottom: 0px;
+    }
+
+    .kapcsolatmaindiv main{
+      margin-top: 20px;
+      padding: 20px;
+    }
+
+
+  .kapcsolatcaption{
+      background-color: #4f9c34;
+      color: white;
+      width: 700px;
+      font-size: 40px; 
+      line-height: 50px;;
+    }
+
+    #card_8{
+      font-size: 20px;
+      color: black;
+      margin: 30px;
+      justify-content: left;
+      vertical-align: middle;
+      align-items: left;
+      width: 750px;
+      height: 600px;
+      text-align: center;
+      background-color:white;
+      box-shadow: 5px 5px 5px black,
+                 -5px -5px 5px black;
+      transition: ease-in-out 0.8s;
+      margin-top: 60px;
+    }
 
     /* program.html cimek, tablazat, td */
     .programoksidecimek{
@@ -443,6 +489,60 @@ main{
     .programoktd {
       padding: 10px;
       border: 1px solid #ccc;
+    }
+    /* Form */
+
+    .form{
+      font-family: 'gentonta';
+      color:  black;
+      text-align: left;
+      line-height: 30px;
+      justify-content: center;
+      align-items: center;
+      display:flex;
+      background-color: #0FBE64;
+      height: 750px;
+      margin-bottom: 0px;
+      background-repeat: no-repeat;
+    }
+
+    #card_9{
+      font-size: 20px;
+      color: black;
+      margin: 30px;
+      justify-content: center;
+      vertical-align: middle;
+      align-items: center;
+      width: 750px;
+      height: 500px;
+      text-align: center;
+      background-color:white;
+      box-shadow: 5px 5px 5px black,
+                 -5px -5px 5px black;
+      transition: ease-in-out 0.8s;
+      margin-top: 60px;
+    }
+
+    legend, label,textarea, input[type="text"], form input[type="email"], input[type="submit"], input[type="button"]{
+      font-family: 'gentona';
+    }
+
+    legend{
+      background-color:#E0DC3D;
+    }
+
+
+    form{
+      margin-top: 50px;
+    }
+    textarea{
+      width: 300px;
+    }
+
+    .uzenetfield{
+      display: flex;
+      align-items: center;
+      margin-left: 200px;
     }
     
   /*Footer*/
