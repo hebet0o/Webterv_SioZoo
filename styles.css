@@ -41,6 +41,12 @@ header {
 }
 
 /*BELEPES ÉS REGISZTRÁCIÓ */
+#belepesregisztracionavmain{
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+}
+
 
 #belepesregisztracionav{
   position: absolute;
@@ -605,8 +611,9 @@ main{
     height: 30px;
     font-weight: bold;
   }
-    
-    
+  
+  
+  
 
     
     
