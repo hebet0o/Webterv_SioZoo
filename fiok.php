@@ -47,7 +47,6 @@ if(isset($_GET['kijelentkezes'])){
     <body>
 
   <div class="fiokmain">
-    
     <div class="profile">
     <?php
     $select = mysqli_query($conn, "SELECT * FROM `user_form` WHERE id = '$user_id'") or die('A lekérdezés sikertelen!');
@@ -62,14 +61,13 @@ if(isset($_GET['kijelentkezes'])){
     }
     
     ?>
+
     <h2 style="text-align: center;"><?php echo $fetch['name'];?></h2>
-    <a href="fiok_update.php" class="btn">
+    <a href="fiok_update.php" class="fiokbtn">
     Fiók szerkesztése</a>
-    <a href="fiok.php?kijelentkezes=<?php echo $user_id;?>" class="btn">
+    <a href="fiok.php?kijelentkezes=<?php echo $user_id;?>" class="fiokbtn">
     Kijelentkezés</a>
     </div>
-
-
   </div>
   </body>
   <footer>

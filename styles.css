@@ -16,6 +16,10 @@ body{
 
 }
 
+button{
+  font-family: 'gentona';
+}
+
 /*Linkek*/  
 
 a{
@@ -622,8 +626,14 @@ main{
   display:flex;
   background-image: url("kepek/flamingo.jpg");
   background-size: 100%;
-  height: 750px;
+  height: 900px;
   margin-bottom: 0px;
+ }
+
+ .fiokmain .profile a{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
  }
 
  .belepes {
@@ -678,13 +688,28 @@ main{
   padding: 5px;
 }
 
-.profile{ 
+.profile{  /*****************************************/
   padding:20px;
   background-color: white;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
   width: 400px;
   border-radius: 5px;
   
+}
+
+.profile .fiokbtn{
+  margin-left: 60px;
+}
+
+.fiokupdate_body .backbtn{
+  margin-left: 160px;
+}
+
+.fiokupdate_body input[value="Profil frissítése"]{
+  margin-left: 80px;
 }
 
 .profile img{
@@ -695,23 +720,53 @@ main{
   margin-bottom: 5px;
 }
   
-.btn{
+.fiokbtn{
 background-color:orange;  
 width: 54%; 
 border-radius: 5px; 
 padding:10px 30px; 
 color:white; 
-display: block; 
+display: flex; 
 text-align: center; 
+justify-content: center;
 cursor: pointer; 
 font-size: 15px; 
 margin-top: 10px;
 align-items: center;
 }
 
+.fiokbtnUpdate{
+  background-color:orange;  
+width: 50%; 
+border-radius: 5px; 
+padding:10px 30px; 
+color:white; 
+display: flex; 
+text-align: center; 
+justify-content: center;
+cursor: pointer; 
+font-size: 15px; 
+margin-top: 10px;
+align-items: center;
+height: 40px;
+margin-left: 80px;
+}
+
+a[id="torles"]{
+  margin-left: 160px;
+  height: 40px;
+}
+
+input[name="update_profile"]{
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+
 .backbtn{
   background-color:orange;  
-  width: 45.5%; 
+  width: 50%; 
   border-radius: 5px; 
   padding:10px 30px; 
   color:white; 
@@ -729,6 +784,15 @@ align-items: center;
   align-items: center;
   justify-content: center;
   padding:20px;
+}
+
+.fiokupdate_body{
+  background-color: white;
+  border-radius: 8px;
+  width: 900px;
+  align-items: center;
+  justify-content: center;
+  display: flex; 
 }
 
 .update-profile form{
@@ -756,9 +820,6 @@ align-items: center;
   gap:15px;
 }
 
-.update-profile form .flex .inputBox{
-  width: 49%;
-}
 
 .update-profile form .flex .inputBox span{
   text-align: left;
@@ -769,7 +830,7 @@ align-items: center;
 }
 
 .update-profile form .flex .inputBox .box{
-  width: 100%;
+  width: 300px;
   border-radius: 5px;
   background-color: var(--light-bg);
   padding:12px 14px;

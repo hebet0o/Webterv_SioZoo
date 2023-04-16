@@ -87,8 +87,8 @@ if(isset($_POST['update_profile'])){
     }
     
     ?>
-
-    <form action="" method="post" enctype="multipart/form-data">
+  <div class="fiokupdate_body">
+  <form action="" method="post" enctype="multipart/form-data">
         <?php
         if($fetch['image'] == ''){
             echo '<img src="kepek/default-avatar.png">';
@@ -119,17 +119,30 @@ if(isset($_POST['update_profile'])){
 
         <input type="password" name="new_pass" placeholder="Adja meg új jelszavát " class="box">
 
-        <span>Új jelszó megerősítése: </span>
+        <span>Új jelszó mégegyszer: </span>
 
         <input type="password" name="confirm_pass" placeholder="Adja meg új jelszavát " class="box">
         </div>
     </div>
-    <input type="submit" value="update profile" name="update_profile" class="btn">
-    <a href="fiok.php" class="backbtn">Vissza</a>
+    
+    <?php
+    if(isset($_POST['delete_profile'])){
 
+      $mail = $_POST['update_email'];
+      mysqli_query($conn, "DELETE FROM `user_form` WHERE email = '$mail'");
+      $message[] = 'Fiókja sikeresen törlődött!';
+      session_destroy();
+      header('location:bejelentkezes.php');
+    }
+    ?>
+    
+    <input type="submit" value="Profil frissítése" name="update_profile" class="fiokbtnUpdate">
+    <button href="fiok.php" id="torles" class="fiokbtnUpdate" name="delete_profile">Profil törlése</button>
+    <button href="fiok.php" class="fiokbtnUpdate">Vissza</button>
     </form>
-
     </div>
+  </div>
+    
     </main>
   </body>
   <footer>
